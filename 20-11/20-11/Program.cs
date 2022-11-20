@@ -25,11 +25,14 @@ namespace _20_11
             char c='A';
             bool batool = true;
             int num1 = 12;
+            const int num2 = 13;
+
             Console.WriteLine(num);
             Console.WriteLine(car);
             Console.WriteLine(c);
             Console.WriteLine(batool);
             Console.WriteLine(num1);
+            Console.WriteLine(num2);
             // Console.WriteLine(" ",car," ",c," ",batool," ",num1," ",num);
 
             //question3
@@ -38,6 +41,7 @@ namespace _20_11
             Console.WriteLine(cars[0]);
             Console.WriteLine(cars[1]);
             Console.WriteLine(cars[2]);
+            Console.WriteLine(cars.Length);
 
             //question 4
             Console.WriteLine("your first name");
