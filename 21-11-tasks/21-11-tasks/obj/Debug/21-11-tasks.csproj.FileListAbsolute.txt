@@ -1,0 +1,8 @@
+C:\Users\t\source\repos\21-11-tasks\21-11-tasks\bin\Debug\21-11-tasks.exe.config
+C:\Users\t\source\repos\21-11-tasks\21-11-tasks\bin\Debug\21-11-tasks.exe
+C:\Users\t\source\repos\21-11-tasks\21-11-tasks\bin\Debug\21-11-tasks.pdb
+C:\Users\t\source\repos\21-11-tasks\21-11-tasks\obj\Debug\21-11-tasks.csproj.AssemblyReference.cache
+C:\Users\t\source\repos\21-11-tasks\21-11-tasks\obj\Debug\21-11-tasks.csproj.SuggestedBindingRedirects.cache
+C:\Users\t\source\repos\21-11-tasks\21-11-tasks\obj\Debug\21-11-tasks.csproj.CoreCompileInputs.cache
+C:\Users\t\source\repos\21-11-tasks\21-11-tasks\obj\Debug\21-11-tasks.exe
+C:\Users\t\source\repos\21-11-tasks\21-11-tasks\obj\Debug\21-11-tasks.pdb
