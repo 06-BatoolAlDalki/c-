@@ -168,53 +168,53 @@ namespace _23_11_tasks
         static void Main(string[] args)
             {
 
-           // Console.WriteLine("/////  TASK1   //////");
-           // sum();
+            Console.WriteLine("/////  TASK1   //////");
+            sum();
 
-           // Console.WriteLine("/////  TASK2   //////");
-           //  cube();
-           // Console.WriteLine("/////  TASK3   //////");
+            Console.WriteLine("/////  TASK2   //////");
+            cube();
+            Console.WriteLine("/////  TASK3   //////");
 
-           // int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
+            int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
 
-           // getYears(years) ;
-
-
-           //  Console.WriteLine("/////  TASK4   //////");
-
-           // Console.WriteLine("please enter your age in year");
-           // int year = Convert.ToInt32(Console.ReadLine());
-
-           //Console.WriteLine(Age(year));
-
-           //  Console.WriteLine("/////  TASK5   //////");
+            getYears(years);
 
 
+            Console.WriteLine("/////  TASK4   //////");
 
-           // int x=Convert.ToInt32(Console.ReadLine());
-           //  int y=Convert.ToInt32(Console.ReadLine());
-           //  int z=Convert.ToInt32(Console.ReadLine());
-           //  Console.WriteLine(animals(x, y, z));
+            Console.WriteLine("please enter your age in year");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Age(year));
+
+            Console.WriteLine("/////  TASK5   //////");
 
 
 
-           // Console.WriteLine("/////  TASK6   //////");
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = Convert.ToInt32(Console.ReadLine());
+            int z = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(animals(x, y, z));
 
-           // // string[] users = { "batool", "ayah", "hala", "lujain", "rama", "haya" };
-           
-           // Console.WriteLine("enter your name");
-           // string str=Console.ReadLine();
-           // Console.WriteLine("enter your pass");
-           // string pass = Console.ReadLine();
-           // login(str ,pass);
 
-           //  Console.WriteLine("/////  TASK7   //////");
 
-           // Console.WriteLine("enter base ");
-           //int q=Convert.ToInt32( Console.ReadLine());
-           // Console.WriteLine("enter exp");
-           // int q1 = Convert.ToInt32(Console.ReadLine());
-           // Power(q, q1);
+            Console.WriteLine("/////  TASK6   //////");
+
+            // string[] users = { "batool", "ayah", "hala", "lujain", "rama", "haya" };
+
+            Console.WriteLine("enter your name");
+            string str = Console.ReadLine();
+            Console.WriteLine("enter your pass");
+            string pass = Console.ReadLine();
+            login(str, pass);
+
+            Console.WriteLine("/////  TASK7   //////");
+
+            Console.WriteLine("enter base ");
+            int q = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter exp");
+            int q1 = Convert.ToInt32(Console.ReadLine());
+            Power(q, q1);
 
 
             Console.WriteLine("/////  TASK8   //////");
