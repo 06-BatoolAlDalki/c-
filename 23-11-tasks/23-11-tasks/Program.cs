@@ -111,10 +111,10 @@ namespace _23_11_tasks
 
         {
             int result = 1;
-            while (exp != 0)
+            while(exp!=0)
             {
-                result *= basse;
-                --exp;
+                result=result*basse;
+                exp--;
             }
             Console.WriteLine("Answer = "+ result);
         }
@@ -124,17 +124,13 @@ namespace _23_11_tasks
 
         static void leapyears()
         {
-            for(int i=1900;i<=2024;i++)
+            for(int i=1900;i<=2024;i+=4)
             {
                 //Console.WriteLine("batool");
                
 
-                if(i % 400 == 0)
-                {
-                    Console.WriteLine(i );
-                }
-                   else if(i%4==0 && i%100!=0 )
-                    { Console.WriteLine(i); }
+               
+                     Console.WriteLine(i); 
                 
             }
         }
@@ -145,12 +141,12 @@ namespace _23_11_tasks
             bool is_prime = true;
 
             // 0 and 1 are not prime numbers
-            if (n == 0 || n == 1)
-            {
-                is_prime = false;
-            }
+            //if (n == 0 || n == 1)
+            //{
+            //    is_prime = false;
+            //}
 
-            for (int i = 2; i <= n / 2; ++i)
+            for (int i = 2; i <= n/2; i++)
             {
                 if (n % i == 0)
                 {
@@ -172,56 +168,56 @@ namespace _23_11_tasks
         static void Main(string[] args)
             {
 
-            Console.WriteLine("/////  TASK1   //////");
-            sum();
+           // Console.WriteLine("/////  TASK1   //////");
+           // sum();
 
-            Console.WriteLine("/////  TASK2   //////");
-             cube();
-            Console.WriteLine("/////  TASK3   //////");
+           // Console.WriteLine("/////  TASK2   //////");
+           //  cube();
+           // Console.WriteLine("/////  TASK3   //////");
 
-            int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
+           // int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
 
-            getYears(years) ;
-
-
-             Console.WriteLine("/////  TASK4   //////");
-
-            Console.WriteLine("please enter your age in year");
-            int year = Convert.ToInt32(Console.ReadLine());
-
-           Console.WriteLine(Age(year));
-
-             Console.WriteLine("/////  TASK5   //////");
+           // getYears(years) ;
 
 
+           //  Console.WriteLine("/////  TASK4   //////");
 
-            int x=Convert.ToInt32(Console.ReadLine());
-             int y=Convert.ToInt32(Console.ReadLine());
-             int z=Convert.ToInt32(Console.ReadLine());
-             Console.WriteLine(animals(x, y, z));
+           // Console.WriteLine("please enter your age in year");
+           // int year = Convert.ToInt32(Console.ReadLine());
+
+           //Console.WriteLine(Age(year));
+
+           //  Console.WriteLine("/////  TASK5   //////");
 
 
 
-            Console.WriteLine("/////  TASK6   //////");
+           // int x=Convert.ToInt32(Console.ReadLine());
+           //  int y=Convert.ToInt32(Console.ReadLine());
+           //  int z=Convert.ToInt32(Console.ReadLine());
+           //  Console.WriteLine(animals(x, y, z));
 
-            // string[] users = { "batool", "ayah", "hala", "lujain", "rama", "haya" };
+
+
+           // Console.WriteLine("/////  TASK6   //////");
+
+           // // string[] users = { "batool", "ayah", "hala", "lujain", "rama", "haya" };
            
-            Console.WriteLine("enter your name");
-            string str=Console.ReadLine();
-            Console.WriteLine("enter your pass");
-            string pass = Console.ReadLine();
-            login(str ,pass);
+           // Console.WriteLine("enter your name");
+           // string str=Console.ReadLine();
+           // Console.WriteLine("enter your pass");
+           // string pass = Console.ReadLine();
+           // login(str ,pass);
 
-             Console.WriteLine("/////  TASK7   //////");
+           //  Console.WriteLine("/////  TASK7   //////");
 
-            Console.WriteLine("enter base ");
-           int q=Convert.ToInt32( Console.ReadLine());
-            Console.WriteLine("enter exp");
-            int q1 = Convert.ToInt32(Console.ReadLine());
-            Power(q, q1);
+           // Console.WriteLine("enter base ");
+           //int q=Convert.ToInt32( Console.ReadLine());
+           // Console.WriteLine("enter exp");
+           // int q1 = Convert.ToInt32(Console.ReadLine());
+           // Power(q, q1);
 
 
-             Console.WriteLine("/////  TASK8   //////");
+            Console.WriteLine("/////  TASK8   //////");
             leapyears();
 
 
