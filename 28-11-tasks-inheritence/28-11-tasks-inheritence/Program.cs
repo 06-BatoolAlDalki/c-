@@ -12,8 +12,18 @@ namespace _28_11_tasks_inheritence
 
     class car
     {
-       
-       
+        public car(string a, int y, string t, double p, string m, int num, string c)
+        {
+            Cars_make = a;
+            Year = y;
+            type = t;
+            Price = p;
+            Model = m;
+            pallet_NO = num;
+            Color = c;
+        }
+
+
         private string cars_make ;
 
         public string Cars_make
@@ -84,25 +94,21 @@ namespace _28_11_tasks_inheritence
 
         public void cal( double x)
         {
-            Console.WriteLine("Equals "+ (x*12));
+            Console.WriteLine("Equals "+ (100/x));
+        }
+
+        public void print()
+        {
+            Console.WriteLine(Cars_make +" "+ Year + " "+ type+" "+Price +" "+ Model+" "+ pallet_NO + " "+Color);
         }
 
     }
 
     class Test_car : car
     {
-
-        public Test_car(string a, int y, string t, double p, string m, int num, string c)
-        {
-            Cars_make = a;
-            Year = y;
-            type = t;
-            Price = p;
-            Model = m;
-            pallet_NO = num;
-            Color = c;
-        }
-
+         public Test_car(string a, int y, string t, double p, string m, int num, string c) : base ( a, y,t,p,  m, num, c)
+        { }
+      
     }
     internal class Program
     {
@@ -126,6 +132,7 @@ namespace _28_11_tasks_inheritence
             obj1.start();
             obj1.stop();
             obj1.cal(12);
+            obj1.print();
         }
     }
 }
