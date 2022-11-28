@@ -1,0 +1,8 @@
+C:\Users\t\source\repos\c#\28-11-tasks-inheritence\28-11-tasks-inheritence\bin\Debug\28-11-tasks-inheritence.exe.config
+C:\Users\t\source\repos\c#\28-11-tasks-inheritence\28-11-tasks-inheritence\bin\Debug\28-11-tasks-inheritence.exe
+C:\Users\t\source\repos\c#\28-11-tasks-inheritence\28-11-tasks-inheritence\bin\Debug\28-11-tasks-inheritence.pdb
+C:\Users\t\source\repos\c#\28-11-tasks-inheritence\28-11-tasks-inheritence\obj\Debug\28-11-tasks-inheritence.csproj.AssemblyReference.cache
+C:\Users\t\source\repos\c#\28-11-tasks-inheritence\28-11-tasks-inheritence\obj\Debug\28-11-tasks-inheritence.csproj.SuggestedBindingRedirects.cache
+C:\Users\t\source\repos\c#\28-11-tasks-inheritence\28-11-tasks-inheritence\obj\Debug\28-11-tasks-inheritence.csproj.CoreCompileInputs.cache
+C:\Users\t\source\repos\c#\28-11-tasks-inheritence\28-11-tasks-inheritence\obj\Debug\28-11-tasks-inheritence.exe
+C:\Users\t\source\repos\c#\28-11-tasks-inheritence\28-11-tasks-inheritence\obj\Debug\28-11-tasks-inheritence.pdb
