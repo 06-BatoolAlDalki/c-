@@ -79,6 +79,14 @@ namespace _28_11_tasks_inheritence
         {
             Console.WriteLine("Good Bye , Only enjoy");
         }
+
+
+
+        public void cal( double x)
+        {
+            Console.WriteLine("Equals "+ (x*12));
+        }
+
     }
 
     class Test_car : car
@@ -117,6 +125,7 @@ namespace _28_11_tasks_inheritence
                 +" "+obj1.Color);
             obj1.start();
             obj1.stop();
+            obj1.cal(12);
         }
     }
 }
